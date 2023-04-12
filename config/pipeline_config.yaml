@@ -1,0 +1,4 @@
+genomes_dir: "genomes"
+extension: "fna"
+evalue: "1e-25"
+#env-name: "hybrid-pipeline-env"

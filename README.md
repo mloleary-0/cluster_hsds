@@ -1,6 +1,5 @@
 # cluster_hsds
 A snakemake pipeline to extract Type I RM system components and cluster hsdS genes from Xylella fastidiosa.  Simply, this will check all nucleotide CDS prediction files with the `.fna` extension in a folder `genomes` for all Hsd components belonging to XfaI-IV (e.g., HsdM, HsdR, HsdS), cluster HsdS alleles with type allele references using `cd-hit`, and use `make_multi_seq.pl` to split these clusters out into seperate fasta-formatted files.  See dag.pdf for the specific workflow.
-\
 # Setup 
 ## Environment Setup 
 Pull down the repository into your run directory using:

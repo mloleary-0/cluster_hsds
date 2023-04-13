@@ -8,7 +8,7 @@ Pull down the repository into your run directory using:
 https://github.com/mloleary-0/cluster_hsds.git
 ``` 
 
-Set up the conda environment with `ncbi-blast`, `cd-hit`, and `snakemake` using the provided `environment.yml` file: \
+Set up the conda environment with `ncbi-blast`, `cd-hit`, and `snakemake` using the provided `environment.yml` file:
 ```
 conda env create -f config/environment.yml
 ``` 
